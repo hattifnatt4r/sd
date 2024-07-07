@@ -53,19 +53,14 @@ body {
   max-height: min(18rem, 20vw);
   max-width: 18rem;
   max-height: 18rem;
+  margin-bottom: -5.5rem;
 }
 
 .header-title {
   --fs: min(2.9rem, 11vw);
-  font-weight: 550;
+  --fs: min(2.3rem, 11vw);
   color: rgba(0,0,0,0.8);
-
-  /*
-  text-transform: uppercase;
-  --fs: min(2.5rem, 11vw);
   font-weight: 550;
-  color: rgba(0,0,0,0.8);
-  */
   font-size: var(--fs);
   line-height: calc(var(--fs) * 1.15);
   font-family: "Montserrat", sans-serif;
@@ -73,10 +68,11 @@ body {
   margin-bottom: 1rem;
 }
 .header-descr {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  font-weight: 500;
+  font-size: 1.07rem;
+  line-height: 1.7rem;
+  font-weight: 600;
   max-width: 37rem;
+  opacity: 0.85;
 }
 
 .header-pic_lg {
@@ -155,11 +151,11 @@ body {
 
 
 .contacts {
-  margin-bottom: 4.2rem;
+  margin-bottom: 3.2rem;
 }
 .contact {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .contact__icon {
   width: 1.7rem;
@@ -198,11 +194,13 @@ body {
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
+.details__subtitle {
+}
 .details__section {
   max-width: 18rem;
   min-width: 17rem;
   margin-right: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 .details__section-title {
