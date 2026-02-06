@@ -275,3 +275,10 @@ body {
     min-width: calc(100% - 1.7rem);
   }
 }
+
+.info {
+  font-size: 0.9rem;
+}
+.bold {
+  font-weight: 600;
+}
