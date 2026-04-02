@@ -282,3 +282,6 @@ body {
 .bold {
   font-weight: 600;
 }
+.strike {
+  text-decoration: line-through;
+}
